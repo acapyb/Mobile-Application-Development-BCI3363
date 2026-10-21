@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1"
+    android:padding="16dp"
+    android:background="#E0F7FA">
+
+    <!-- Header Row -->
+    <TableRow>
+        <TextView
+            android:text="Time"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:background="#B2EBF2"/>
+        <TextView
+            android:text="Subject"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:background="#B2EBF2"/>
+        <TextView
+            android:text="Room"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:background="#B2EBF2"/>
+    </TableRow>
+
+    <!-- Row 1 -->
+    <TableRow>
+        <TextView
+            android:text="08:00"
+            android:padding="8dp"/>
+        <TextView
+            android:text="Math"
+            android:padding="8dp"/>
+        <TextView
+            android:text="101"
+            android:padding="8dp"/>
+    </TableRow>
+
+    <!-- Row 2 -->
+    <TableRow>
+        <TextView
+            android:text="10:00"
+            android:padding="8dp"/>
+        <TextView
+            android:text="Physics"
+            android:padding="8dp"/>
+        <TextView
+            android:text="202"
+            android:padding="8dp"/>
+    </TableRow>
+
+    <!-- Row 3 -->
+    <TableRow>
+        <TextView
+            android:text="12:00"
+            android:padding="8dp"/>
+        <TextView
+            android:text="English"
+            android:padding="8dp"/>
+        <TextView
+            android:text="305"
+            android:padding="8dp"/>
+    </TableRow>
+
+</TableLayout>
