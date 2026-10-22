@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your hobbies:"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Reading -->
+    <CheckBox
+        android:id="@+id/chkReading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reading"/>
+
+    <!-- Traveling -->
+    <CheckBox
+        android:id="@+id/chkTraveling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Traveling"/>
+
+    <!-- Cooking -->
+    <CheckBox
+        android:id="@+id/chkCooking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cooking"/>
+
+    <!-- Exercise: Additional Hobbies -->
+
+    <CheckBox
+        android:id="@+id/chkSports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sports" />
+
+    <CheckBox
+        android:id="@+id/chkGaming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gaming" />
+
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Selection"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Output -->
+    <TextView
+        android:id="@+id/txtOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
